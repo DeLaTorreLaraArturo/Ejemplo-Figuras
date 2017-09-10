@@ -13,4 +13,9 @@ public class Cuadrado extends Figura
     {
         area = lado * lado;
     }
+    
+    public void calculaPerimetro()
+    {
+        perimetro = 4 * lado;
+    }
 }

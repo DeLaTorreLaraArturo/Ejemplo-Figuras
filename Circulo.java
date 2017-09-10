@@ -13,4 +13,9 @@ public class Circulo extends Figura
     {
         area = 3.14f * (radio * radio);
     }
+    
+    public void calculaPerimetro()
+    {
+        perimetro = 2 * 3.14f * radio;
+    }
 }
