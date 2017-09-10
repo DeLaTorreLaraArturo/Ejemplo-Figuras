@@ -23,6 +23,9 @@ public class Figura
         System.out.println("No se como calcular el area");
     }
     
+    /**
+     * Calcula el perimetro de la figura
+     */
     public void calculaPerimetro()
     {
         System.out.println("No se como calcular el perimetro");
@@ -36,6 +39,9 @@ public class Figura
         System.out.println("El area de la Figuara es: " + area);
     }
     
+    /**
+     * Imprime el Perimetro de la figura
+     */
     public void imprimePerimetro()
     {
         System.out.println("El perimetro de la Figuara es: " + perimetro);
