@@ -1,16 +1,16 @@
 
 public class Cuadrado extends Figura
 {
-    private float radio;
+    private float lado;
     
-    public Circulo(float unRadio)
+    public Cuadrado(float unLado)
     {
-        radio = unRadio;
+        lado = unLado;
     }
     
     @Override//Avisa alguna sobreescrutirua incorrecta
     public void calculaArea()
     {
-        area = 3.14f * (radio * radio);
+        area = lado * lado;
     }
 }
