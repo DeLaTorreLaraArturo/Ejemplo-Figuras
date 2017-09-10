@@ -24,6 +24,7 @@ public class Circulo extends Figura
     /**
      * calcula el perimetro de un Circulo y lo guarda en la variable de instancia periemtro, de la SuperClase Figura 
      */
+    @Override//Avisa alguna sobreescrutirua incorrecta
     public void calculaPerimetro()
     {
         perimetro = 2 * 3.14f * radio;

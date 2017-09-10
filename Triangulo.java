@@ -29,7 +29,8 @@ public class Triangulo extends Figura
     /**
      * Calcula el Perimetro de un Triangulo Equilatero y lo guarda en la variable de instancia perimetro, de la SuperClase Figura
      */
-    public void calculaPerimetroEquilatero()
+    @Override//Avisa alguna sobreescrutirua incorrecta
+    public void calculaPerimetro()
     {
         perimetro = 3 * base;
     }
@@ -37,16 +38,18 @@ public class Triangulo extends Figura
     /**
      * Calcula el Perimetro de un Triangulo Isoceles y lo guarda en la variable de instancia perimetro, de la SuperClase Figura
      */
-    public void calculaPerimetroIsoceles(float unLado)
+    //@Override//Avisa alguna sobreescrutirua incorrecta
+    /*public void calculaPerimetroIsoceles(float unLado)
     {
         perimetro = (2 * unLado) + base;
-    }
+    }*/
     
     /**
      * Calcula el Perimetro de un Triangulo Escaleno y lo guarda en la variable de instancia perimetro, de la SuperClase Figura
      */
-    public void calculaPerimetroEscaleno(float unLado)
+   // @Override//Avisa alguna sobreescrutirua incorrecta
+    /*public void calculaPerimetroEscaleno(float unLado)
     {
         perimetro = altura + base + unLado;
-    }
+    }*/
 }

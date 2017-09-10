@@ -7,12 +7,14 @@ public class Figura
 {
     protected float area;
     protected float perimetro;
+    
     /**
      * Costructor de la clase Figura
      */
     public Figura()
     {
         area = 0;
+        perimetro = 0;
     }
     
     /**

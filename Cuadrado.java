@@ -24,6 +24,7 @@ public class Cuadrado extends Figura
     /**
      * Calcula el Area de un Cuadrado y lo guarda en la variable de instancia area, de la SuperClase Figura
      */
+    @Override//Avisa alguna sobreescrutirua incorrecta
     public void calculaPerimetro()
     {
         perimetro = 4 * lado;
